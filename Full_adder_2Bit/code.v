@@ -29,3 +29,7 @@ full_adder_1bit FA1 (
 );
 assign out = {Cout,Sum};
 endmodule
+
+
+
+
