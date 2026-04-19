@@ -26,3 +26,5 @@ output cout
     full_adder f3(.a(a[2]), .b(b[2]), .c(w2), .sum(sum[2]), .carry(w3));
     full_adder f4(.a(a[3]), .b(b[3]), .c(w3), .sum(sum[3]), .carry(cout));
 endmodule
+
+
