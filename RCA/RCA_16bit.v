@@ -37,5 +37,8 @@ output cout
     full_adder f14(.a(a[13]), .b(b[13]), .c(w13), .sum(sum[13]), .carry(w14));
     full_adder f15(.a(a[14]), .b(b[14]), .c(w14), .sum(sum[14]), .carry(w15));
     full_adder f16(.a(a[15]), .b(b[15]), .c(w15), .sum(sum[15]), .carry(cout));
+
+
+    
 endmodule
 
