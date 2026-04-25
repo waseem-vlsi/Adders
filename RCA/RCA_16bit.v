@@ -20,6 +20,8 @@ output [15:0]sum,
 output cout
     );
 
+    
+
     wire w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11,w12,w13,w14,w15;
     full_adder f1(.a(a[0]), .b(b[0]), .c(cin), .sum(sum[0]),.carry(w1));
     full_adder f2(.a(a[1]), .b(b[1]), .c(w1), .sum(sum[1]), .carry(w2));
