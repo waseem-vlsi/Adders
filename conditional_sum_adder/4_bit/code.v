@@ -11,6 +11,7 @@ CC_block a2(.A(A[1]), .B(B[1]), .S0(S_C0[1]), .C0(C_C0[1]), .S1(S_C1[1]), .C1(C_
 CC_block a7(.A(A[2]), .B(B[2]), .S0(S_C0[2]), .C0(C_C0[2]), .S1(S_C1[2]), .C1(C_C1[2]));
 CC_block a8(.A(A[3]), .B(B[3]), .S0(S_C0[3]), .C0(C_C0[3]), .S1(S_C1[3]), .C1(C_C1[3]));
 
+  
 // First output: carry-in 0 path
 wire s1_1, c1_1, s1_2, c1_2, s1_3, c1_3;
 Mux_2X1 a3(.I0(S_C0[1]), .I1(S_C1[1]), .sel(C_C0[0]), .Y(s1_1));
